@@ -1,6 +1,6 @@
 {
   "name": "ipeb",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "The IPEB or Intermediate Process Event Buss is an npm package that aims to trivialize inter-process communications between NODE processes.",
   "main": "dist/api.js",
   "scripts": {
@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/Olian04/intermediate-process-event-buss#readme",
   "devDependencies": {
-    "@types/node": "^13.1.0",
+    "@types/node": "^13.1.1",
     "@types/typescript": "^2.0.0",
     "better-logging": "^3.5.0",
     "ts-node": "^8.5.4",

@@ -7,7 +7,7 @@ The IPEB or Intermediate Process Event Buss is an npm package that aims to trivi
 const { ProcessHub } = require('ipeb');
 const path = require('path');
 
-const hub = new ProcessHub(process);
+const processHub = new ProcessHub(process);
 processHub.spawn(path.join(__dirname, 'intervalDemo.js'));
 processHub.spawn(path.join(__dirname, 'messageDemo1.js'));
 processHub.spawn(path.join(__dirname, 'messageDemo2.js'));

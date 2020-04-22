@@ -14,7 +14,7 @@ processHub.spawn(path.join(__dirname, 'messageDemo2.js'));
 ```
 
 ```js
-// intervalDemo
+// intervalDemo.js
 const { ProcessClient } = require('ipeb');
 const processClient = new ProcessClient('interval demo');
 
